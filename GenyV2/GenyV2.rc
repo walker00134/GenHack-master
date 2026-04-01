@@ -51,7 +51,7 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-
+IDI_APP_ICON ICON "logo.ico"
 
 #endif    // English (United States) resources
 /////////////////////////////////////////////////////////////////////////////
@@ -67,4 +67,3 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 #endif    // not APSTUDIO_INVOKED
-
