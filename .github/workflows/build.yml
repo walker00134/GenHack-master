@@ -24,4 +24,4 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: GenyV2-Release
-        path: GenyV2/x64/Release/GenyV2.exe
+        path: x64/Release/GenyV2.exe
