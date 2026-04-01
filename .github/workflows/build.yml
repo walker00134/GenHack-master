@@ -19,7 +19,7 @@ jobs:
       run: msbuild "GenyV2.vcxproj" /p:Configuration=Release /p:Platform=x64
 
     - name: Upload EXE
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4   # <--- تم التحديث
       with:
         name: GenyV2-Release
         path: GenyV2\x64\Release\GenyV2.exe
