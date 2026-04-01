@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="GenyV2/GenyV2.vcxproj" Id="c9e3972c-0bdc-4381-841f-565842c17a77" />
+</Solution>
