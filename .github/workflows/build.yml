@@ -18,8 +18,8 @@ jobs:
       uses: microsoft/setup-msbuild@v1
 
     - name: Build GenyV2
-      run: msbuild "GenyV2/GenyV2.slnx" /p:Configuration=Release /p:Platform=x64 /p:PlatformToolset=v143
-
+      run: msbuild "GenyV2.slnx" /p:Configuration=Release /p:Platform=x64 /p:PlatformToolset=v143
+      
     - name: Upload EXE
       uses: actions/upload-artifact@v4
       with:
