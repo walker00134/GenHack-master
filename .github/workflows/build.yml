@@ -17,11 +17,11 @@ jobs:
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1
 
-    - name: Build Project
-      run: msbuild "GenyV2.vcxproj" /p:Configuration=Release /p:Platform=x64
+    - name: Build GenyV2
+      run: msbuild "GenyV2/GenyV2.slnx" /p:Configuration=Release /p:Platform=x64
 
     - name: Upload EXE
       uses: actions/upload-artifact@v4
       with:
         name: GenyV2-Release
-        path: GenyV2\x64\Release\GenyV2.exe
+        path: GenyV2/x64/Release/GenyV2.exe
